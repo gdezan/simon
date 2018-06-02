@@ -1,0 +1,161 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+@font-face {
+    font-family: 'digital';
+    src: url('fonts/digital.ttf');
+}
+
+html {
+    font-size: 82.5%;
+    text-align: center;
+}
+
+body {
+    box-sizing: border-box;
+    font-size: 1.6rem;
+    display: inline-block;
+    background-color: #ECECEB;
+    font-family: 'Bree Serif', serif;
+}
+
+h1 {
+    font-weight: 400;
+    margin-top: 3rem;
+    font-size: 5rem;
+}
+
+.game-frame {
+    background-color: rgb(29, 27, 27);
+    width: 48rem;
+    height: 48rem;
+    border-radius: 50%;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0.4rem 0.3rem rgba(0, 0, 0, 0.74), inset 0 0.2rem 0.3rem 0.2rem rgba(255, 255, 255, 0.1);
+}
+
+.game-menu {
+    border: 1.5rem solid rgb(29, 27, 27);
+    border-radius: 50%;
+    position: absolute;
+    background-color: #ECECEB;
+    width: 23rem;
+    height: 23rem;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 21rem 21rem;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 2rem;
+}
+
+.btn {
+    width: 21rem;
+    height: 21rem;
+}
+
+.green {
+    background-color: green;
+    border-top-left-radius: 100%;
+}
+
+.red {
+    background-color: red;
+    border-top-right-radius: 100%;
+}
+
+.yellow {
+    background-color: yellow;
+    border-bottom-left-radius: 100%;
+}
+
+.blue {
+    background-color: blue;
+    border-bottom-right-radius: 100%;
+}
+
+.menu-title {
+    font-size: 3rem;
+    margin: 1.5rem 0;
+}
+
+.menu-middle {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    font-size: 1.2rem;
+    margin: 1rem 1rem;
+}
+
+.mb {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 0.8rem auto;
+    border: 0.3rem solid rgb(29, 27, 27); 
+    border-radius: 50%;
+}
+
+.start-button {
+    background-color: green;
+}
+
+.strict-button {
+    background-color: yellow;
+}
+
+.strict-light {
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: rgb(22, 7, 7);
+    border: 0.2rem solid rgb(43, 43, 43);
+    margin: 0 auto;
+    margin-bottom: -0.3rem;
+    border-radius: 50%;
+}
+
+.count-display {
+    width: 5.4rem;
+    height: 4.4rem;
+    background-color: rgb(22, 7, 7);
+    border: 0.4rem solid rgb(43, 43, 43);
+    border-radius: 0.7rem;
+    color: rgb(184, 0, 0);
+    font-family: 'digital';
+    font-size: 3rem;
+    display: flex;
+    margin: 0.5rem 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.switch { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.toggle {
+    width: 3.8rem;
+    border-radius: 0.4rem;
+    margin: 0 1rem;
+    background-color: rgb(22, 7, 7);
+    height: 2.1rem;
+}
+
+.tick {
+    width: 1.3rem;
+    height: 1.5rem;
+    border-radius: 0.2rem;
+    margin: 0.3rem 0.25rem 0 0.25rem;
+    background-color:rgb(166, 166, 209);
+}
