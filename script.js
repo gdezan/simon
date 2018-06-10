@@ -128,7 +128,7 @@ for (let i in btn) {
             } else if (playerPieces.length === chosenPieces.length) {
                 clickTime = false;
                 if (isEqual(playerPieces, chosenPieces)) {
-                    if (round == 20) {
+                    if (round == 2) {
                         gameWin();
                     } else {
                         setTimeout(playRound, 700);
